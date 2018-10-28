@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Nav from "./Nav";
 
 
-class Index extends Component {
+class Home extends Component {
 
 
     render() {
@@ -20,4 +20,4 @@ class Index extends Component {
     }
 }
 
-export default Index;
+export default Home;
