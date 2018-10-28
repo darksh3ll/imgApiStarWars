@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 
 
 const DisplayPeoples = ({name ,height,hair_color,url}) => (
@@ -11,7 +12,7 @@ const DisplayPeoples = ({name ,height,hair_color,url}) => (
             <h2 className="name">{name}</h2>
             <p className="height">Height:{height}</p>
             <p className="hair_color">hair_color:{hair_color}</p>
-            <button>Plus info</button>
+            <Link to="/info">Info</Link>
         </div>
     </div>
 );
